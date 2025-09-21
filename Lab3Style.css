@@ -1,0 +1,66 @@
+body {
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div[id = "form"] {
+    background-color: #77DD77;
+    width: 73%;
+    padding-left: 10px;
+    float: left;
+}
+
+input[id = "name"] {
+    width: 150px;
+    padding: 5px;
+}
+
+input[id = "name"]:focus {
+    width: 300px;
+}
+
+div[id = "sidebar"] {
+    background-color: beige;
+    width: 25%;
+    padding-left: 10px;
+    float: right;
+}
+
+div[id = "sidebar"]:hover {
+    background-color: red;
+}
+
+div[id = "main"] {
+    width: 100%;
+}
+
+div[class = "headerfooter"] {
+    background-color: darkgray;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    clear: both;
+}
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: #111111;
+}
